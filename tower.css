@@ -1,0 +1,62 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: 1px solid black;
+}
+
+header {
+    text-align: center;
+}
+
+#message {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 800px;
+    margin-top: 30px;
+
+}
+
+.column {
+    background-color: black;
+    height: 300px;
+    width: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#disc1 {
+    background-color: blue;
+    width: 100px;
+}
+
+#disc2 {
+    background-color: purple;
+    width: 125px;
+}
+
+#disc3 {
+    background-color: green;
+    width: 150px;
+}
+
+#disc4 {
+    background-color: red;
+    width: 175px;
+}
+
+.disc {
+    height: 50px;
+}
