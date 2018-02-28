@@ -32,6 +32,8 @@ function handleClick(event) {
     // Otherwise we are dropping the disc to a column (status = "drop")  
     // If the column does not have any discs or the disc you are dropping is smaller than 
     // the last disc in the column, then add disc, set the message and status to pick up the disc
+    // To determine if disc you are dropping than the last disc in column, the number at the end of the 
+    // ids are used for comparison.
     } else {  
         if (cols.childElementCount === 0 || disc[4] < cols.lastElementChild.id[4]){
             addDiv(disc, cols);
